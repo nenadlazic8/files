@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Stil za index, header, footer*/
+
+#lotoslogo{
+    margin-bottom: 15px;
+}
+#navbar{
+    background-color: #8F208C;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+#kolone .col-md-4{
+    padding-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#kolone .col-md-4 #slika1kolona1, #slika1kolona2, #slika1kolona3{
+    padding: 20px
+}
+
+footer{
+    background-color: #8F208C;
+    color:black;
+}
+
+.site-footer .text-center img{
+    
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: black;
+}
+
+footer ul li a:hover{
+    color: white;
+}
+
+.site-footer h3{
+    padding: 20px;
+}
+
+/*Stil za O nama*/
+
+.o-nama-content{
+
+    margin:0;
+    padding: 0;
+    background-image: url(lisce.jpg);
+    background-size: cover;
+     
+}
+
+.o-nama-content #misija, #o-nama, #btngalerija{
+    padding: 35px;
+}
+
+/*Stil za Usluge*/
+
+#UslugeNaslov{
+    background-image: url(usluge.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+#UslugeNaslov h1{
+    padding-top: 280px;
+    font-weight: bold;
+}
+
+#Kolona1Usluge{
+    padding: 20px;
+}
+
+#Kolona1Usluge #ruza{
+    float: left;
+    padding-right: 20px;
+}
+
+#Kolona2Usluge #saksija{
+    float: right;
+}
+
+#Kolona3Usluge #confetti{
+    float:left;
+    padding-right: 20px;
+}
