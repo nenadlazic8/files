@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
 }
 
 /*Stil za index, header, footer*/
@@ -34,6 +35,7 @@
 footer{
     background-color: #8F208C;
     color:black;
+    
 }
 
 .site-footer .text-center img{
@@ -73,6 +75,21 @@ footer ul li a:hover{
     padding: 35px;
 }
 
+#demo2{
+    height: 200px;
+}
+
+#demo2 .carousel-item{
+    
+}
+
+#zadovoljne-musterije{
+    padding: 20px;
+}
+
+#musterije{
+    
+}
 /*Stil za Usluge*/
 
 #UslugeNaslov{
@@ -86,7 +103,7 @@ footer ul li a:hover{
     font-weight: bold;
 }
 
-#Kolona1Usluge{
+.usluge-content h2{
     padding: 20px;
 }
 
@@ -102,4 +119,21 @@ footer ul li a:hover{
 #Kolona3Usluge #confetti{
     float:left;
     padding-right: 20px;
+}
+/*Stil za kontakt*/
+
+.pisite-nam h1{
+    padding: 20px;
+}
+
+#forma{
+    width:50%;
+    left: 25%;
+}
+.kako-do-nas h1{
+    padding: 20px;
+}
+
+.kontaktirajte-nas h1{
+    padding: 20px;
 }
