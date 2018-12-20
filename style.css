@@ -14,7 +14,7 @@
     background-color: #8F208C;
 }
 
-.nav-link{
+#navigacija .navbar .nav-item .nav-link{
     color: white;
     font-size: 20px;
 }
@@ -22,9 +22,22 @@
 .nav-link:hover{
     color: black;
 }
+#nav1, #nav2, #nav3, #nav4{
+    color: white;
+    font-size: 20px;
+}
+
+#nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover{
+    color: black;
+    font-size: 20px;
+}
+
+#NaslovPocetna{
+    margin: 30px;
+}
 
 #kolone .col-md-4{
-    padding-top: 20px;
+    padding: 20px;
     font-size: 18px;
     margin-bottom: 20px;
 }
@@ -95,12 +108,17 @@ footer ul li a:hover{
 #UslugeNaslov{
     background-image: url(usluge.jpg);
     background-size: cover;
-    height: 400px;
+    height: 700px;
 }
 
 #UslugeNaslov h1{
-    padding-top: 280px;
+    top: 500px;
+    font-size: 69px;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.212);
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
 }
 
 .usluge-content h2{
@@ -119,6 +137,13 @@ footer ul li a:hover{
 #Kolona3Usluge #confetti{
     float:left;
     padding-right: 20px;
+    
+}
+
+.usluge-content .col-md-12{
+
+    margin-bottom: 25px;
+
 }
 /*Stil za kontakt*/
 
@@ -136,4 +161,23 @@ footer ul li a:hover{
 
 .kontaktirajte-nas h1{
     padding: 20px;
+}
+
+@media(max-width:475px){
+    #UslugeNaslov{
+        background-image: url(usluge.jpg);
+        background-size: cover;
+        height: 500px;
+    }
+
+    #UslugeNaslov h1{
+        top: 200px;
+        font-size: 69px;
+        color: white;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.377);
+        border-radius: 20px;
+        display: inline-block;
+        position: relative;
+    }
 }
