@@ -24,39 +24,50 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <!--Header-->
 
         <div class="header">
 
             <div class="text-center">
-                <a href="index.html"><img src="lotoslogo.png" id="lotoslogo" width="200px" height="100px"></a>
+                <a href="index.html"><img src="lotoslogo.png" id="lotoslogo" width="250px" height="130px"></a>
             </div>
 
             <!--Navigacija-->
 
-            <nav class="navbar navbar-expand-sm justify-content-center" id="navbar">
+            <nav class="navbar navbar-expand-sm justify-content-center navbar-dark" id="navbar">
+
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                 data-target="#navigacija">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navigacija">
 
                     <ul class="navbar-nav">
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="o-nama.html" target="_blank">O nama</a>
-                            </li>
-        
-                            <li class="nav-item">
-                                <a class="nav-link" href="usluge.html" target="_blank">Usluge</a>
-                            </li>
-        
-                            <li class="nav-item">
-                                <a class="nav-link" href="galerija.html" target="_blank">Galerija</a>
-                            </li>
-        
-                            <li class="nav-item">
-                                <a class="nav-link" href="kontakt.html" target="_blank">Kontakt</a>
-                            </li>
-        
-                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="o-nama.html" target="_blank" id="nav1">O nama</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="usluge.html" target="_blank" id="nav2">Usluge</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="galerija.html" target="_blank" id="nav3">Galerija</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html" target="_blank" id="nav4">Kontakt</a>
+                        </li>
+    
+                    </ul>
+
+                </div>
+
+                
 
             </nav>
 
@@ -83,6 +94,48 @@
                     desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
 
+
+            <div id="musterije">
+
+                <h1 class="text-center" id="zadovoljne-musterije">-Zadovoljne musterije-</h1>
+        
+                <div id="demo2" class="carousel slide" data-ride="carousel">
+        
+        
+                    
+                    <!--Zadovoljne musterije-->
+        
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active">
+                            <hr>
+                            <h5>U svaloj prilici odgovorni, poslovni, predusretljivi, pazljivi, kreativni, trzisno povoljni,
+                                divni, nezamenjljivi.<br>Hvala vam sto postojite a zelja mi je da jos dugo trajete! Veliki
+                                pozzzz!</h5>
+                            <i>Gordana, Pozarevac</i>
+                            <hr>
+                        </div>
+        
+                        <div class="carousel-item">
+                                <hr>
+                            <h3>Samo napred, sve pohvale!</h3>
+                            <i>Dragana, Beograd</i>
+                            <hr>
+                        </div>
+        
+                        <div class="carousel-item">
+                                <hr>
+                            <h3>Bravo, sve pohvale!</h3>
+                            <i>Zeljko, Pozarevac</i>
+                            <hr>
+                        </div>
+                    </div>
+        
+        
+               </div>
+            
+    
+            </div>
+
             <div class="container text-center" id="btngalerija">
                 <h1>-POGLEDAJTE NASE FOTOGRAFIJE-</h1>
                 <input type="button" class="btn btn-outline-success" value="GALERIJA">
@@ -93,46 +146,7 @@
             
         </div>
 
-        <div id="musterije">
-
-            <h1 class="text-center" id="zadovoljne-musterije">-Zadovoljne musterije-</h1>
-    
-            <div id="demo2" class="carousel slide" data-ride="carousel">
-    
-    
-                
-                <!--Zadovoljne musterije-->
-    
-                <div class="carousel-inner text-center">
-                    <div class="carousel-item active">
-                        <hr>
-                        <h5>U svaloj prilici odgovorni, poslovni, predusretljivi, pazljivi, kreativni, trzisno povoljni,
-                            divni, nezamenjljivi.<br>Hvala vam sto postojite a zelja mi je da jos dugo trajete! Veliki
-                            pozzzz!</h5>
-                        <i>Gordana, Pozarevac</i>
-                        <hr>
-                    </div>
-    
-                    <div class="carousel-item">
-                            <hr>
-                        <h3>Samo napred, sve pohvale!</h3>
-                        <i>Dragana, Beograd</i>
-                        <hr>
-                    </div>
-    
-                    <div class="carousel-item">
-                            <hr>
-                        <h3>Bravo, sve pohvale!</h3>
-                        <i>Zeljko, Pozarevac</i>
-                        <hr>
-                    </div>
-                </div>
-    
-    
-           </div>
-        
-
-        </div>
+       
 
 
 

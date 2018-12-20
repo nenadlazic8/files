@@ -25,40 +25,50 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <!--Header-->
 
         <div class="header">
 
             <div class="text-center">
-                <a href="index.html"><img src="lotoslogo.png" id="lotoslogo" width="200px" height="100px"></a>
+                <a href="index.html"><img src="lotoslogo.png" id="lotoslogo" width="250px" height="130px"></a>
             </div>
 
             <!--Navigacija-->
 
-            <nav class="navbar navbar-expand-sm justify-content-center sticky-top" id="navbar">
+            <nav class="navbar navbar-expand-sm justify-content-center navbar-dark" id="navbar">
 
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                 data-target="#navigacija">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-center" id="navigacija">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="o-nama.html" target="_blank">O nama</a>
-                    </li>
+                    <ul class="navbar-nav">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="usluge.html" target="_blank">Usluge</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="o-nama.html" target="_blank" id="nav1">O nama</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="usluge.html" target="_blank" id="nav2">Usluge</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="galerija.html" target="_blank" id="nav3">Galerija</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html" target="_blank" id="nav4">Kontakt</a>
+                        </li>
+    
+                    </ul>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="galerija.html" target="_blank">Galerija</a>
-                    </li>
+                </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="kontakt.html" target="_blank">Kontakt</a>
-                    </li>
-
-                </ul>
+                
 
             </nav>
 
@@ -80,15 +90,36 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="slika1.png" height="550px" width="100%" alt="slika1">
+
+                    <img src="slika1.png" height="780px" width="100%" alt="slika1">
+                    
+                    <div class="carousel-caption">
+                        <h3 style="color:black;">Cvetni aranzmani</h3>
+                        <input type="button" class="btn btn-outline-success text-center" value="GALERIJA">
+                    </div>
+                    
                 </div>
 
                 <div class="carousel-item">
-                    <img src="slika2.jpg" height="550px" width="100%" alt="slika2">
+
+                    <img src="slika2.jpg" height="780px" width="100%" alt="slika2">
+
+                    <div class="carousel-caption">
+                            <h3 style="color:black;">Dekoracija svih vrsta proslava</h3>
+                            <input type="button" class="btn btn-outline-success" value="GALERIJA">
+                        </div>
                 </div>
 
                 <div class="carousel-item">
-                    <img src="slika3.jpg" height="550px" width="100%" alt="slika3">
+
+                    <img src="slika3.jpg" height="780px" width="100%" alt="slika3">
+
+                    <div class="carousel-caption">
+                            <h3 style="color:black;">O nama</h3>
+
+                            <form><input type="button" class="btn btn-outline-success" value="POGLEDAJ" onclick="window.location.href='o-nama.html'"></form>
+                            
+                        </div>
                 </div>
             </div>
 
@@ -103,7 +134,19 @@
             </a>
         </div>
 
+        <!--Naslov za pocetnu-->
+
+        <div id="NaslovPocetna">
+
+            <h1 class="text-center">Sta mozete ocekivati od nas?</h1>
+            <hr>
+
+        </div>
+
         <!--Kolone-->
+
+        
+       
 
         <div class="row" id="kolone">
 
@@ -130,6 +173,9 @@
 
             <!--Kolona 2-->
 
+           
+
+            
             <div class="col-md-4">
 
                 <!--Slika za kolonu 2-->
@@ -173,7 +219,7 @@
             </div>
 
         </div>
-
+<hr>
 
         <!--Footer-->
 
