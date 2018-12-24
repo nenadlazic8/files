@@ -6,7 +6,9 @@
 }
 
 /*Stil za index, header, footer*/
-
+.container-fluid{
+    padding: 0;
+}
 #lotoslogo{
     margin-bottom: 15px;
 }
@@ -59,10 +61,13 @@ footer{
 
 footer ul{
     list-style-type: none;
+    
 }
 
 footer ul li a{
     color: black;
+   
+    font-size: 20px;
 }
 
 footer ul li a:hover{
@@ -70,7 +75,11 @@ footer ul li a:hover{
 }
 
 .site-footer h3{
-    padding: 20px;
+    padding: 10px;
+}
+
+.site-footer .text-center .col-md-4 img{
+    padding: 7px;
 }
 
 /*Stil za O nama*/
@@ -164,6 +173,14 @@ footer ul li a:hover{
 }
 
 @media(max-width:475px){
+    *{
+        font-size: 16px;
+    }
+
+   .carousel-item img{
+       height: 500px;
+   }
+   
     #UslugeNaslov{
         background-image: url(usluge.jpg);
         background-size: cover;
@@ -179,5 +196,10 @@ footer ul li a:hover{
         border-radius: 20px;
         display: inline-block;
         position: relative;
+    }
+
+    .KontaktIkonice{
+        height: 85px;
+        width: 85px;
     }
 }
