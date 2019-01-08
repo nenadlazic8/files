@@ -6,9 +6,7 @@
 }
 
 /*Stil za index, header, footer*/
-.container-fluid{
-    padding: 0;
-}
+
 #lotoslogo{
     margin-bottom: 15px;
 }
@@ -101,10 +99,6 @@ footer ul li a:hover{
     height: 200px;
 }
 
-#demo2 .carousel-item{
-    
-}
-
 #zadovoljne-musterije{
     padding: 20px;
 }
@@ -171,6 +165,18 @@ footer ul li a:hover{
 .kontaktirajte-nas h1{
     padding: 20px;
 }
+
+/*Galerija*/
+
+.slike{
+    padding: 20px;
+}
+
+.slike:hover{
+    background-color: rgba(143, 32, 139, 0.089);
+}
+
+/*Responsive*/
 
 @media(max-width:475px){
     *{
