@@ -80,6 +80,12 @@ footer ul li a:hover{
     padding: 7px;
 }
 
+.ikonice:hover{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
 /*Stil za O nama*/
 
 .o-nama-content{
