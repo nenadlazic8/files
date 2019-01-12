@@ -85,6 +85,11 @@ footer ul li a:hover{
     height: 100px;
     transition: 1s;
 }
+.lotoslogo:hover{
+    width: 220px;
+    height: 110px;
+    transition: 1.5s;
+}
 
 /*Stil za O nama*/
 
