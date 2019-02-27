@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*Stil za index, header, footer*/
@@ -83,7 +83,7 @@ footer ul li a:hover{
 .ikonice:hover{
     width: 100px;
     height: 100px;
-    transition: 1s;
+    transition: 2s;
 }
 .lotoslogo:hover{
     width: 220px;
@@ -115,11 +115,11 @@ footer ul li a:hover{
 }
 
 #musterije{
-    background-color: rgba(240, 248, 255, 0.555);
+    background-color: rgba(240, 248, 255, 0.671);
 }
 
-#musterije{
-    
+#btngalerija .dugmici{
+    padding: 15px;
 }
 /*Stil za Usluge*/
 
@@ -144,23 +144,26 @@ footer ul li a:hover{
 }
 
 #Kolona1Usluge #ruza{
-    float: left;
-    padding-right: 20px;
+    position: relative;
+    left: 30%;
+    padding-bottom: 40px;
 }
 
-#Kolona2Usluge #saksija{
-    float: right;
+#saksija{
+    position: relative;
+    left: 100%;
 }
 
 #Kolona3Usluge #confetti{
-    float:left;
-    padding-right: 20px;
+    position: relative;
+    left: 30%;
+    padding-bottom: 20px;
     
 }
 
-.usluge-content .col-md-12{
+.usluge-content .col-md-12, .col-md-10{
 
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 
 }
 /*Stil za kontakt*/
@@ -229,5 +232,10 @@ footer ul li a:hover{
 
     .kontaktirajte-nas .row .col-md-2{
         margin-top: 35px;
+    }
+
+    .slike{
+        width: 160px;
+        height: 160px;
     }
 }
