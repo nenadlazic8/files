@@ -32,6 +32,17 @@
     font-size: 20px;
 }
 
+.carousel-caption{
+    background-color: rgba(247, 247, 247, 0.199);
+
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    display: block;
+}
+
 #NaslovPocetna{
     margin: 30px;
 }
