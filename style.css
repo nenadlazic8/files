@@ -136,10 +136,10 @@ footer ul li a:hover{
 }
 
 #UslugeNaslov h1{
-    top: 500px;
-    font-size: 69px;
+    top: 470px;
+    font-size: 100px;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(0, 0, 0, 0.082);
     border-radius: 20px;
     display: inline-block;
     position: relative;
@@ -201,6 +201,10 @@ footer ul li a:hover{
 
 .slike:hover{
     background-color: rgba(143, 32, 139, 0.089);
+}
+
+.naslovih2{
+    padding: 50px;
 }
 
 /*Responsive*/
