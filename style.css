@@ -5,6 +5,10 @@
     font-size: 20px;
 }
 
+.container-fluid{
+    padding:0px !important;
+}
+
 /*Stil za index, header, footer*/
 
 #lotoslogo{
