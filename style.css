@@ -147,14 +147,17 @@ footer ul li a:hover{
     height: 700px;
 }
 
-#UslugeNaslov h1{
-    top: 470px;
+#UslugeNaslov h1 {
+    top: 38%;
+    right: 0%;
     font-size: 100px;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.082);
-    border-radius: 20px;
-    display: inline-block;
-    position: relative;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.38);
+    border-radius: 0px;
+    display: block;
+    width: 100%;
+    position: absolute;
 }
 
 .usluge-content h2{
