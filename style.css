@@ -32,10 +32,18 @@
     font-size: 20px;
 }
 
-.carousel-caption{
-   
-
-   
+.carousel-caption {
+    position: absolute;
+    /* right: 15%; */
+    bottom: 1px;
+    /* left: 15%; */
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    background-color: #fffbfb69;
 }
 
 #NaslovPocetna{
@@ -52,9 +60,13 @@
 }
 
 footer{
-    background-color: #8F208C;
-    color:black;
+    background-color: #41073f;
+    color: #f6aced;
     
+}
+
+footer.site-footer a {
+    color: #f6aced;
 }
 
 .site-footer .text-center img{
